@@ -11,7 +11,7 @@ The component has one required prop: id (the token address id of the NFT) and 3 
 
 import { NFT } from 'solana-nft'
 
-<NFT id="<token_account_id>" />
+<NFT id="<token_address_id>" />
 
-<NFT id="<token_account_id>" height={600} width={600} style={{ borderRadius: "50%" }} />
+<NFT id="<token_address_id>" height={600} width={600} style={{ borderRadius: "50%" }} />
 ```
